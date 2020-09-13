@@ -1,0 +1,42 @@
+/*
+  This globals.css contains all the global styles and colours for the website,
+  the colours are grouped by number and used with a hyphen to denote the relationship between colours.
+
+  Tools used to generate css code:
+  https://coolors.co/palettes/trending - Colour palletes
+  https://cssgrid-generator.netlify.app/ - Grid generator
+*/
+
+
+
+:root {
+
+  --color-0: #7400b8ff;
+  --color-1: #6930c3ff;
+  --color-2: #5e60ceff;
+  --color-3: #5390d9ff;
+  --color-4: #4ea8deff;
+  --color-5: #48bfe3ff;
+  --color-6: #56cfe1ff;
+  --color-7: #64dfdfff;
+  --color-8: #72efddff;
+  --color-9: #80ffdbff;
+
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+#app {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
