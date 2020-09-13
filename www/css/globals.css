@@ -40,3 +40,48 @@ html, body {
   overflow-y: auto;
   overflow-x: hidden;
 }
+
+.d-flex {
+  display: flex;
+}
+
+.flow-row {
+  flex-direction: row;
+}
+
+.flow-column {
+  flex-direction: column;
+}
+
+.justify-stretch {
+  justify-content: stretch;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+.rounded {
+  border-radius: 100%;
+}
+
+.shadow {
+  box-shadow: 0px 0px 10px #101010;
+}
+
+.img-profile {
+  width: 10rem;
+  height: 10rem;
+}
+
+.padded {
+  padding: 0.5rem;
+}
+
+.margin {
+  margin: 0.5rem;
+}

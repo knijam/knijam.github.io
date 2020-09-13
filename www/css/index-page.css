@@ -1,0 +1,20 @@
+div#header {
+  width: 100%;
+}
+
+div#header div#header-container {
+  width: 100%;
+  min-height: 2.5rem;
+  background-color: var(--color-1);
+}
+
+div#header div#header-drop {
+  width: 100%;
+  background: linear-gradient(var(--color-1) 50%, transparent 50%);
+}
+
+div#header img#profile-image {
+  border-color: var(--color-2);
+  border-width: 0.25rem;
+  border-style: solid;
+}
