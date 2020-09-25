@@ -43,7 +43,7 @@ window.hydrateConfigurableNodes = function(dom, propObject) {
     return Promise.all(commentNodes.map((commentNode) => {
       var command = commentNode.nodeValue.trim();
       var commands = command.split(' ');
-      console.log(commentNode);
+
       if (commands.length && commands.length>1 && commands[0] === 'prop') {
         commentNode.parentNode.append(propObject[commands[1]]);
       }
