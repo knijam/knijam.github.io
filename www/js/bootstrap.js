@@ -4,5 +4,5 @@
 
 
 window.ready = function() {
-  console.log('Greetings and Hello World.');
+  window.hydrateConfigurableNodes(document, {});
 }
